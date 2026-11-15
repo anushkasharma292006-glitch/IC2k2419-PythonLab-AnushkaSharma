@@ -19,7 +19,7 @@ Contains time and space complexity lab work.
 Contain Sum of prime, count pair and kth smallest pairwise sum.  
 --
 ## Lab 5
-Part A
+# Part A
 Dictionary-based Python programs:
 
 Student Database
@@ -27,9 +27,9 @@ Employee Database
 Library Record System
 Word Frequency Counter
 Phone Directory
-Part B
+# Part B
 Dictionary output prediction questions.<br>
 
-Part C
+# Part C
 Python dictionary questions and answers.
 
