@@ -1,10 +1,14 @@
 # Python Lab Assignments
+
 *Student Name:* Anushka Sharma<br>
+
 *Roll Number:* IC-2K24-19
+
 ---
 
 ### About
 This repository contains Python lab assignments completed as part of the Python practical course.
+
 ---
 ## Lab 1
 Contains basic Python programs covering variables, arithmetic operations, strings, and escape sequences.
