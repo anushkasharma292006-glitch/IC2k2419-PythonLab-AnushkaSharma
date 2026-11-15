@@ -1,5 +1,5 @@
 # Python Lab Assignments
-*Student Name:* Anushka Sharma\n
+*Student Name:* Anushka Sharma<br>
 *Roll Number:* IC-2K24-19
 ---
 
@@ -28,7 +28,7 @@ Library Record System
 Word Frequency Counter
 Phone Directory
 Part B
-Dictionary output prediction questions.
+Dictionary output prediction questions.<br>
 
 Part C
 Python dictionary questions and answers.
