@@ -1,69 +1,171 @@
-#Python lab1
-#1.Variable and Identifier
-#Aim
-To declare variable and print datatype.
-#Logic
-First Declare the variable and then use the type function.
-#SampleInput/Output
-Name:  Anushka Sharma <class 'str'>
-Age:  21 <class 'int'>
-Height:  5.8 <class 'float'>
-Student:  True <class 'bool'>
+# Python Lab 1
 
- 
-#2.Greeting
-#Aim
-To take username age and city and display their information.
-#Logic
-Take variable using input() and then use f string to combine all of them.
-#Sample input/Output
-Enter your name:Anushka Sharma
-Enter your age:21
-Enter your city:Indore
-My name is Anushka Sharma,I am 21 year old,I live in Indore
+## 1. Variable and Identifier Practice
 
-#3ArithmeticOperation
-#Aim
-To perform basic arithmetic operation on two number
-#Logic
-First take two number as input and then perform operation.
-#sample inpput/output
-Enter first number:2
-Enter second number:8
-Sum: 10.0
-Difference: -6.0
-Quotient: 0.25
-Remainder: 2.0
+### Aim
 
-#4.Celsius to Fahreheit
-#Aim
-To convert Celsius to fahrenheit
-#Logic
-Take Celsius as input and then conver to farenheit using formula. 
-#Sample Input/Output
-Enter temperature in celsius:25
-Temperature in farenheit: 77.0
+To declare variables for name, age, height, and student status and display each variable along with its data type.
 
-#5.String Manipulation
-#Aim
-To perform different operation on string
-#Logic
-Take name as input and then use their function.
-#sample Input/Output
-Enter your name:Anushka Sharma
+### Logic
+
+The program creates variables of different data types: string, integer, float, and Boolean.
+The `type()` function is used to check and display the data type of each variable.
+
+### Sample Input / Output
+
+No input is required.
+
+**Sample Output:**
+
+```text
+Name: Anushka Sharma: <class 'str'>
+Age: 20 Type: <class 'int'>
+Height: 5.4 Type: <class 'float'>
+Student: True Type: <class 'bool'>
+```
+
+---
+
+## 2. Greeting Program
+
+### Aim
+
+To take the user's name, age, and city as input and display them in one sentence using an f-string.
+
+### Logic
+
+The program takes the user's name, age, and city using `input()`.
+It combines all three values into one sentence using an f-string.
+
+### Sample Input / Output
+
+**Sample Input:**
+
+```text
+Enter your name: Anushka Sharma
+Enter your age: 20
+Enter your city: Indore
+```
+
+**Sample Output:**
+
+```text
+Hello Anushka Sharma, you are 20 years old and you live in Indore.
+```
+
+---
+
+## 3. Arithmetic Operations
+
+### Aim
+
+To perform basic arithmetic operations on two numbers.
+
+### Logic
+
+The program takes two numbers as input and performs addition, subtraction, multiplication, division, and modulus operations.
+Each result is displayed with a clear label.
+
+### Sample Input / Output
+
+**Sample Input:**
+
+```text
+Enter first number: 29
+Enter second number: 78
+```
+
+**Sample Output:**
+
+```text
+Sum: 107.0
+Difference: -49.0
+Product: 2262.0
+Quotient: 0.3717948717948718
+Remainder: 29.0
+```
+
+---
+
+## 4. Celsius to Fahrenheit
+
+### Aim
+
+To convert temperature from Celsius to Fahrenheit.
+
+### Logic
+
+The program takes the temperature in Celsius as input and converts it into a number.
+It applies the formula `F = (C × 9/5) + 32` and displays the Fahrenheit value.
+
+### Sample Input / Output
+
+**Sample Input:**
+
+```text
+Enter temperature in Celsius: 56
+```
+
+**Sample Output:**
+
+```text
+Temperature in Fahrenheit: 132.8
+```
+
+---
+
+## 5. String Manipulation
+
+### Aim
+
+To perform different string operations on a full name.
+
+### Logic
+
+The program takes a full name as input and converts it into uppercase and lowercase forms.
+It also reverses the string, calculates its length, and uses different string methods such as `upper()`, `lower()`, `title()`, and `capitalize()`.
+
+### Sample Input / Output
+
+**Sample Input:**
+
+```text
+Enter your full name: Anushka Sharma
+```
+
+**Sample Output:**
+
+```text
 Uppercase: ANUSHKA SHARMA
-Lowercase: anushka sharma
-Reversed: amrahS akhsunA
-Length: 14
-#6.Escape Sequence
-#Aim
-To Print a small receipt using escape sequence.
-#Logic
-Use \t between item and price and then \n for total.
-#Sample Input/Output
+Lowercase:anushka sharma
+Reversed:amrahs akhsuna
+Length:13
+Title Case: Anushka Sharma
+Capitalized: Anushka Sharma
+```
+
+---
+
+## 6. Escape Sequence Practice
+
+### Aim
+
+To print a simple table using the `\t` and `\n` escape sequences.
+
+### Logic
+
+The program uses `\t` to create spacing between the item name and price.
+It uses `\n` to move the output to a new line.
+
+### Sample Input / Output
+
+No input is required.
+
+**Sample Output:**
+
+```text
 Item    Price
-Burger  30
-Coffee  50
-
-Total   80
-
+Pen     20
+Notebook        50
+Pencil  10
+```
